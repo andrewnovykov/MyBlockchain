@@ -1,6 +1,12 @@
 const Block = require('./block');
 
-const block = new Block('foo', 'bar','zoo', 'baz');
+const fooBlock = Block.mainBlock(Block.genesis(), 'forof');
+console.log(fooBlock)
 
-console.log(block.toString());
-console.log(Block.genesis().toString());
+
+
+
+// const block = new Block('foo', 'bar','zoo', 'baz');
+//
+// console.log(block.toString());
+// console.log(Block.genesis().toString());
